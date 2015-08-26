@@ -17,6 +17,7 @@
 
 body{
     font-family: 'Open Sans', Helvetica;
+    color: #303944;
 }
 
 .sidebar-brand .searchbar input{
@@ -71,6 +72,11 @@ body{
     height: 2px;
     background-color: #DFEBF2;
 }
+
+.menu-button:hover .icon-bar {
+    background-color: #fff;
+}
+
 .menu-button .icon-bar + .icon-bar {
   margin-top: 4px;
 }
