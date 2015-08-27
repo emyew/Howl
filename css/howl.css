@@ -1,3 +1,4 @@
+/*========event list pages=========*/
 .dropdown {
 	text-align:center;
 	font-family:"open sans";
@@ -23,6 +24,17 @@
 }
 
 
-#long-text{
+#long-text {
 	font-size:20px;
+}
+/*=================================*/
+
+/*==========sign in page===========*/
+.form-group{
+	margin-top:10%;
+}
+
+#signin-btn{
+	text-align:center;
+	margin-top:10%;
 }
