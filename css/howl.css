@@ -118,3 +118,25 @@
 	text-align:center;
 	margin-top:10%;
 }
+
+#wrapper.signin label{
+    font-family: 'Ailerons';
+    font-size: 20px;
+}
+
+#wrapper.signin .form-control{
+    border-radius: 0px;
+}
+
+#wrapper.signin #page-content-wrapper .container-fluid{
+    width: 80%
+}
+
+#wrapper.signin #page-content-wrapper .container-fluid button{
+    border-radius: 0px;
+    font-family: 'Ailerons';
+    font-size: 18px;
+    height: 45px;
+    padding-bottom: 10px;
+}
+/*=================================*/
