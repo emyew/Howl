@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>Howl</title>
-    <link rel="shortcut icon" href="../images/howl-icon.ico">
+    <link rel="shortcut icon" href="howl-icon.ico">
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -88,7 +88,7 @@
             </a>
             <div id="appname">
                 <span class="glyphicon glyphicon-chevron-left backbutton hidden"></span>
-                CSE <span class="glyphicon glyphicon-triangle-right bread-crumb"></span> Competitions
+                CSE > Competitions
             </div>
         </div>
     </div>

@@ -99,63 +99,12 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="dropdown">
-                       Sort By: <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Select Major
-                            <span class="caret"></span>
-                        </button>
-                            <ul class="dropdown-menu" aria-labelledby="dLabel">
-                                <li>Computer Science</li>
-                                <li>Cognitive Science</li>
-                                <li>All</li>
-                            </ul>
+                    <div class="col-lg-12" id="dropdown">
+                        <p>Sort By:</p>
+                       
+                        
                     </div>
                 </div>
-            <!--event 1-->
-                <div class="row" id="section">
-                     <div class="col-xs-4" id="img">
-                        <img src="http://placehold.it/100x100">
-                    </div>
-                    <div class="col-xs-8" id="event-name">
-                        <a href="#">Intuit Hackathon</a>
-                    </div>
-                </div>
-           <!--   end  -->
-
-
-            <!--event 2-->
-                <div class="row" id="section">
-                     <div class="col-xs-4" id="img">
-                        <img src="http://placehold.it/100x100">
-                    </div>
-                    <div class="col-xs-8" id="event-name">
-                        <a href="#">SD Hacks</a>
-                    </div>
-                </div>
-           <!--   end  -->
-
-           <!--event 3-->
-                <div class="row" id="section">
-                     <div class="col-xs-4" id="img">
-                        <img src="http://placehold.it/100x100">
-                    </div>
-                    <div class="col-xs-8" id="event-name">
-                        <a href="#" id="long-text">WIC Beginners' Programming Competition</a>
-                    </div>
-                </div>
-           <!--   end  -->
-
-           <!--event 4-->
-                <div class="row" id="section">
-                     <div class="col-xs-4" id="img">
-                        <img src="http://placehold.it/100x100">
-                    </div>
-                    <div class="col-xs-8" id="event-name">
-                        <a href="#" id="long-text">Engineering World Health Hackathon</a>
-                    </div>
-                </div>
-           <!--   end  -->
-
             </div>
         </div>
         <!-- /#page-content-wrapper -->
