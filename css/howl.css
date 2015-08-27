@@ -1,14 +1,19 @@
 /*========event list pages=========*/
-.dropdown {
+/*=================================*/
+
+/*dropdown for selecting major*/
+#major-select {
 	text-align:center;
 	font-family:"open sans";
 	font-size: ;
 }
 
-#section {
+/*each individual event listed on page*/
+#event-list {
 	margin-top:10%;
 }
 
+/*blue section of event listing*/
 #event-name{
 	background-color: #303944;
 	color:#ffffff;
@@ -18,19 +23,23 @@
 	padding-top:8%;
 }
 
+/*turning off text decoration for links*/
 #event-name a{
 	text-decoration:none;
 	color:#ffffff;
 }
 
-
+/*different formatting for long names (need smaller font) to fit*/
 #long-text {
 	font-size:20px;
 }
 /*=================================*/
+/*=================================*/
+
+
 
 /*==========sign in page===========*/
-.form-group{
+#login-form{
 	margin-top:10%;
 }
 
