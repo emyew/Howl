@@ -1,3 +1,83 @@
+@font-face{
+    font-family: 'Ailerons';
+    src: url('fonts/ailerons.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+#dropdown {
+	text-align:center;
+	font-family:"Open Sans";
+}
+
+/*resize howl logo to 300px*/
+.logo{
+    width: 300px;
+}
+
+/**Start Screen1 Style**/
+#wrapper.screen1{
+    width: 100%;
+}
+
+#wrapper.screen1 img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#wrapper.screen1 .form-group{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#wrapper.screen1 .form-group label{
+    font-family: 'Ailerons';
+    font-size: 30px;
+    text-shadow: 0;
+    margin-bottom: 10px;
+}
+
+#wrapper.screen1 .form-group .form-control{
+    font-family: 'Ailerons';
+    font-size: 20px;
+    height: 45px;
+    background: #414f5e;
+    color: #DFEBF2;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media(max-width:400px) {
+    #wrapper.screen1 .form-group .form-control{
+        font-family: 'Ailerons';
+        background: #414f5e;
+        color: #DFEBF2;
+        border-radius: 0px;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    
+    .logo{
+        width: 200px;
+    }
+}
+
+@media(min-width:1024px) {
+    #wrapper.screen1 .form-group .form-control{
+        width: 30%;
+    }
+}
+
+/**End Screen1 Style**/
+
 /*========event list pages=========*/
 /*=================================*/
 
@@ -47,3 +127,25 @@
 	text-align:center;
 	margin-top:10%;
 }
+
+#wrapper.signin label{
+    font-family: 'Ailerons';
+    font-size: 20px;
+}
+
+#wrapper.signin .form-control{
+    border-radius: 0px;
+}
+
+#wrapper.signin #page-content-wrapper .container-fluid{
+    width: 80%
+}
+
+#wrapper.signin #page-content-wrapper .container-fluid button{
+    border-radius: 0px;
+    font-family: 'Ailerons';
+    font-size: 18px;
+    height: 45px;
+    padding-bottom: 10px;
+}
+/*=================================*/

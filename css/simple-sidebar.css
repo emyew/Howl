@@ -119,6 +119,10 @@ body{
     padding: 4px 5px;
 }
 
+.bread-crumb{
+    font-size: 25px;
+}
+
 .hidden{
     display: none;
 }
