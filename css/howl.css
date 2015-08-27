@@ -1,5 +1,28 @@
-#dropdown {
+.dropdown {
 	text-align:center;
 	font-family:"open sans";
 	font-size: ;
+}
+
+#section {
+	margin-top:10%;
+}
+
+#event-name{
+	background-color: #303944;
+	color:#ffffff;
+	font-family:Ailerons;
+	font-size:27px;
+	height:100px;
+	padding-top:8%;
+}
+
+#event-name a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+
+#long-text{
+	font-size:20px;
 }
