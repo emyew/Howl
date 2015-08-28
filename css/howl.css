@@ -149,3 +149,163 @@
     padding-bottom: 10px;
 }
 /*=================================*/
+
+
+/*==========event page===========*/
+#wrapper.event-page{
+    width:100%
+}
+
+#wrapper.event-page .event-name{
+    font-family: 'Ailerons';
+    font-size: 48px;
+    color: #414f5e;
+}
+
+#wrapper.event-page .event-label{
+    font-family: 'Ailerons';
+    font-size: 30px;
+    color: #414f5e;
+    overflow: hidden;
+}
+
+#wrapper.event-page .event-info{
+    font-family: 'Open Sans';
+    font-size:30px;
+    color: #DFEBF2;
+}
+
+.photos {
+    max-width: 30%;
+    display: inline;
+}
+
+#wrapper.event-page img{
+    margin: 0:auto;
+    margin-bottom: 10px;
+}
+
+.sort-section {
+    display:inline;
+    width: 100%;
+}
+
+.advice-section{
+    background: #414f5e;
+    padding-top: 10px;
+}
+
+.advice{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #dfebf2;
+    margin-top:15px;
+    font-size:12px;
+}
+
+.reviewer-info{
+    padding-left: 10px;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    color: #ffffff;
+    float: left;
+}
+
+/* format the upvote/downvote section on bottom right of each review */
+.right {
+    float: right;
+    padding-top: 18px;
+    padding-right: 15px;
+    font-size: 25px;
+    color: #dfebf2;
+}
+    
+.right-align{
+    text-align: right;
+}
+
+.upvote, .downvote{
+    font-size: 15px;
+    color: black;
+} 
+
+/*============add advice===========*/
+#wrapper.share-advice{
+    width:100%
+}
+
+.title{
+    font-family: 'Open Sans';
+    font-size: 36px;
+    color: #414f5e;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.boxsizingBorder{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.indent{
+    margin-left:3em;
+}
+
+.star-rating {
+  font-size: 0;
+  white-space: nowrap;
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  background:
+url('../images/star-rating.png');
+  background-size: contain;
+}
+.star-rating i {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  z-index: 1;
+  background: url('../images/star-rating-filled.png');
+  background-size: contain;
+}
+.star-rating input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  opacity: 0;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+.star-rating input:hover + i,
+.star-rating input:checked + i {
+  opacity: 1;
+}
+.star-rating i ~ i {
+  width: 40%;
+}
+.star-rating i ~ i ~ i {
+  width: 60%;
+}
+.star-rating i ~ i ~ i ~ i {
+  width: 80%;
+}
+.star-rating i ~ i ~ i ~ i ~ i {
+  width: 100%;
+}
+
+.rating-wrapper{
+    vertical-align: text-bottom;
+}
