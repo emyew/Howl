@@ -329,3 +329,19 @@ url('../images/star-rating.png');
 .rating-wrapper{
     vertical-align: text-bottom;
 }
+
+.review_sort{
+    display: inline-block;
+    width: 80%;
+}
+
+.sortreviewlabel{
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+#reviewsortbox{
+    width: 80%;
+}
+
+/*============End add advice===========*/
