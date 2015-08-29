@@ -81,19 +81,63 @@
 /**Signup Style**/
 
 #signup{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+}
+
+#signup h2{
+    font-family: 'Ailerons';
 }
 
 #signup .form-control{
     border-radius: 0px;
-    background: #414f5e;
-    color: #DFEBF2;
+    background: #A5B5BE;
+    color: #303944;
     font-family: 'Ailerons';
     font-size: 16px;
     margin-bottom: 10px;
     padding-bottom: 10px;
     height: 40px;
+}
+
+#signup .writebox{
+    height: 100px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+
+.yesno{
+    height: 30px;
+}
+
+.yesno label{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.yesno input{
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+.signupbutton{
+    background: #303944;
+    color: #A5B5BE;
+    font-family: 'Ailerons';
+    font-size: 12pt;
+    padding-bottom: 10px;
+    border-color: transparent;
+    margin-top: 15px;
+}
+
+.signupbutton:hover{
+    color: #303944;
+    background: #A5B5BE;
 }
 
 /**End Signup Style**/
@@ -301,7 +345,8 @@
 
 /*============add advice===========*/
 #wrapper.share-advice{
-    width:100%
+    width:90%;
+    margin: 0 auto;
 }
 
 .title{

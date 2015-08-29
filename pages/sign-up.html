@@ -98,7 +98,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
+                        <form role="form">
                         <div id="signup" class="form-group">
+                            <h2>Sign Up</h2>
                             <label for="usr">Name:</label><input type="text" class="form-control" id="usr">
                             <label for="sel1">Year:</label>
                             <select class="form-control" id="sel1">
@@ -107,12 +109,20 @@
                                 <option>Third Year</option>
                                 <option>Fourth Year</option>
                                 <option>Fifth Year</option>
-                                <option>Fifth+ Year</option>
+                                <option>Above Fifth Year</option>
                             </select>
                             <label for="job_q">Do you currently have an internship/job related to your desired career field?</label>
+                            <div class="yesno">
                             <label><input type="radio" name="optjob" class="job_q radio-inline">Yes</label>
                             <label><input type="radio" name="optjob" class="job_q radio-inline">No</label>
+                            </div>
+                            <label for="experience">Share your experiences (optional):</label>
+  <textarea class="form-control writebox" rows="10" id="experience"></textarea>
+                            <label for="aboutself">Talk about yourself! (optional):</label>
+  <textarea class="form-control writebox" rows="10" id="aboutself"></textarea>
+                            <button type="submit" class="btn btn-default signupbutton">Sign Up</button>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
