@@ -8,19 +8,14 @@
     src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-#dropdown {
-	text-align:center;
-	font-family:"Open Sans";
+/**Start Screen1 Style**/
+#wrapper.screen1{
+    width: 100%;
 }
 
 /*resize howl logo to 300px*/
 .logo{
     width: 300px;
-}
-
-/**Start Screen1 Style**/
-#wrapper.screen1{
-    width: 100%;
 }
 
 #wrapper.screen1 img{
@@ -75,8 +70,156 @@
         width: 30%;
     }
 }
-
 /**End Screen1 Style**/
+
+/*===Start Index Style====*/
+#wrapper.homepage {
+    width: 100%;
+}
+
+#wrapper.homepage #page-content-wrapper{
+    vertical-align: middle;
+}
+
+#wrapper.homepage h1{
+    text-align: center;
+    font-family: 'Ailerons';
+    margin-bottom: 25px;
+}
+
+#topcategory{
+    width: 400px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#bottomcategory{
+    width: 400px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.circular_category{
+    border-radius:50%;
+    transition: transform 0.5s ease;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.circular_category:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+#overlay{
+    opacity: 0;
+    background: rgba(0,0,0,.75);
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    transition: opacity .25s ease;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    width: 200px;
+}
+
+#overtext{
+    text-decoration: none;
+    width: 100px;
+    margin: 0 auto;
+    font-family: 'Ailerons';
+    font-size: 18pt;
+    color: white;
+}
+
+.circular_category:hover #overlay{
+    opacity: 1;
+}
+
+.circular_category:hover #overtext{
+    text-decoration: none;
+}
+
+.left_cat{
+    float: left;
+}
+
+.right_cat{
+    float: right
+}
+
+.trophy, .group_3, .pencil, .chatbox{
+    background-size: cover; 
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.trophy{
+    background: url(../images/competitionicon.svg);
+    background-position: center; 
+}
+
+.chatbox{
+    background: url(../images/organizationicon.svg);
+    background-position: 3px; 
+}
+
+.group_3{
+    background: url(../images/organization2.svg);
+    background-position: center -10px; 
+}
+
+.pencil{
+    background: url(../images/coursesicon.svg);
+    background-position: 5px -5px; 
+}
+
+@media(min-width:1000px){
+    .trophy, .group_3, .pencil, .chatbox{
+        zoom: 1.2;
+        margin-bottom: 15px;
+    }
+    #topcategory, #bottomcategory{
+        width: 500px;
+    }
+}
+
+@media(max-width:1000px){  
+    .trophy, .group_3, .pencil, .chatbox{
+        zoom: 1.2;
+        margin-bottom: 15px;
+    }
+    #topcategory, #bottomcategory{
+        width: 500px;
+    }
+}
+
+@media(max-width:800px) {
+    .trophy, .group_3, .pencil, .chatbox{
+        zoom: 1.2;
+        margin-bottom: 15px;
+    }
+    #topcategory, #bottomcategory{
+        width: 420px;
+    }
+}
+
+@media(max-width:500px){
+    #topcategory, #bottomcategory{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .trophy, .group_3, .pencil, .chatbox{
+        float: none;
+        margin: 0 auto;
+        zoom: 1;
+        margin-bottom: 10px;
+    }
+}
+
+/*======End Index Style=====*/
 
 /**Signup Style**/
 
