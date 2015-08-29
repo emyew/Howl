@@ -102,10 +102,29 @@
 /*=================================*/
 
 /*dropdown for selecting major*/
-#major-select {
-	text-align:center;
-	font-family:"open sans";
-	font-size: ;
+#wrapper.eventlist{
+    width:90%;
+    margin: 0 auto;
+}
+
+.eventlistsort{
+    display: inline-block;
+    width: 80%;
+    border-radius: 0px;
+    background: #414f5e;
+    color: #DFEBF2;
+}
+
+.eventlistlabel{
+    padding-right: 10px;
+    vertical-align: middle;
+    font-family: 'Ailerons';
+    font-size: 20px;
+}
+
+.eventsortbox{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /*each individual event listed on page*/

@@ -31,7 +31,7 @@
 
 <body>
 
-    <div id="wrapper" >
+    <div id="wrapper" class="eventlist" >
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
@@ -99,17 +99,15 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="dropdown"id="major-select">
-                       Sort By: <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Select Major
-                            <span class="caret"></span>
-                        </button>
-                            <ul class="dropdown-menu" aria-labelledby="dLabel">
-                                <li>Computer Science</li>
-                                <li>Cognitive Science</li>
-                                <li>All</li>
-                            </ul>
-                    </div>
+                    <div class="form-group eventsortbox">
+                            <label class="eventlistlabel" for="sel1">Sort By:</label>
+                            <select class="form-control eventlistsort" id="sel1">
+                                <option><a href="#">Rating (Highest First)</a></option>
+                                <option><a href="#">Rating (Lowest First)</a></option>
+                                <option><a href="#">Name</a></option>
+                                <option><a href="#">Date</a></option>
+                            </select>
+                        </div>
                 </div>
             <!--event 1-->
                 <div class="row" id="event-list">
