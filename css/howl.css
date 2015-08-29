@@ -275,8 +275,21 @@
 }
 
 .advice-section{
-    background: #414f5e;
+    background: #dfebf2;
     padding-top: 10px;
+    margin-bottom: 6px;
+}
+
+.advice-section img {
+    height: 20px;
+}
+
+.advice-section helpful{
+    display: none;
+}
+
+.advice-section date{
+    display: none;
 }
 
 .review_sort{
@@ -312,30 +325,24 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 5px;
-    background-color: #dfebf2;
-    margin-top:15px;
+    background-color: #ffffff;
+    margin-top:20px;
     font-size:12px;
+    border: 2px solid #414f5e;
 }
 
 .reviewer-info{
     padding-left: 10px;
+    padding-bottom: 10px;
     font-family: 'Open Sans';
     font-size: 10px;
-    color: #ffffff;
+    color: black;
     float: left;
 }
 
 /* format the upvote/downvote section on bottom right of each review */
-.right {
-    float: right;
-    padding-top: 18px;
-    padding-right: 15px;
-    font-size: 25px;
-    color: #dfebf2;
-}
-    
-.right-align{
-    text-align: right;
+.vote{
+    float:right;
 }
 
 .upvote, .downvote{
