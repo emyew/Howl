@@ -155,10 +155,10 @@
                         <div id="reviewsortbox">
                             <label class="sortreviewlabel">Sort by:</label>
                             <select class="form-control review_sort" id="sort-advice" style="margin-bottom:10px" onchange="sort()">
-                                    <option><a href="">Helpfulness</a></option>
+                                    <option><a href="">Most helpful</a></option>
                                     <option><a href="">Highest rating to lowest</a></option>
                                     <option><a href="">Lowest rating to highest</a></option>
-                                    <option><a href="">Recent</a></option>
+                                    <option><a href="">Most recent</a></option>
                             </select>
                             <a class="reviewbutton" href="">
                 <span class="btn btn-default glyphicon glyphicon-pencil share addreview"></span>
@@ -316,9 +316,9 @@
           var opt = $("#sort-advice option:selected").text();
         var $divs = $("div.advice-section");
 
-        if (opt === "Helpfulness") {
+        if (opt === "Most helpful") {
             var helpfulOrderedDivs = $divs.sort(function(a, b) {
-                return ($(a).find(".count").text() < $(b).find(".date").text());
+                return ($(a).find(".count").text() < $(b).find(".count").text());
             });
             $("#container").html(helpfulOrderedDivs);
         }
@@ -334,7 +334,7 @@
             });
             $("#container").html(ratingAscDivs);
         }
-        else if (opt === "Recent") {
+        else if (opt === "Most recent") {
             var dateOrderedDivs = $divs.sort(function(a,b) {
                 return ($(a).find(".date").text() < $(b).find(".date").text());
             });
