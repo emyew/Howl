@@ -440,6 +440,8 @@
 }
 
 .review_sort{
+    /*background: #414f5e;
+    color: #DFEBF2; */
     display: inline-block;
     width: 70%;
     border-radius: 0px;
@@ -504,7 +506,7 @@
 }
 
 .title{
-    font-family: 'Open Sans';
+    font-family: 'Ailerons';
     font-size: 36px;
     color: #414f5e;
     text-align: center;
@@ -575,6 +577,16 @@ url('../images/star-rating.png');
 
 .rating-wrapper{
     vertical-align: text-bottom;
+}
+
+#submit-btn
+{
+    background-color: #414F5E;
+    margin-bottom:5px;
+    font-family: 'Ailerons';
+    color: #DFEBF2;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 /*============End add advice===========*/
