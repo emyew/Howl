@@ -173,7 +173,8 @@
 
 /*==========event page===========*/
 #wrapper.event-page{
-    width:100%
+    width:95%;
+    margin: 0 auto;
 }
 
 #wrapper.event-page .event-name{
@@ -213,6 +214,34 @@
 .advice-section{
     background: #414f5e;
     padding-top: 10px;
+}
+
+.review_sort{
+    display: inline-block;
+    width: 70%;
+    border-radius: 0px;
+}
+
+.sortreviewlabel{
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+#reviewsortbox{
+    width: 100%;
+}
+
+.addreview{
+    vertical-align: middle;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    background: #414f5e;
+    color: white;
+}
+
+.addreview:hover{
+    background: white;
+    color: #414f5e;
 }
 
 .advice{
@@ -328,20 +357,6 @@ url('../images/star-rating.png');
 
 .rating-wrapper{
     vertical-align: text-bottom;
-}
-
-.review_sort{
-    display: inline-block;
-    width: 80%;
-}
-
-.sortreviewlabel{
-    padding-right: 15px;
-    vertical-align: middle;
-}
-
-#reviewsortbox{
-    width: 80%;
 }
 
 /*============End add advice===========*/
