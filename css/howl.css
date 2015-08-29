@@ -332,7 +332,7 @@ url('../images/star-rating.png');
 
 .review_sort{
     display: inline-block;
-    width: 80%;
+    width: 90%;
 }
 
 .sortreviewlabel{
@@ -341,7 +341,7 @@ url('../images/star-rating.png');
 }
 
 #reviewsortbox{
-    width: 80%;
+    width: 100%;
 }
 
 /*============End add advice===========*/
