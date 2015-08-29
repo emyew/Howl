@@ -578,3 +578,36 @@ url('../images/star-rating.png');
 }
 
 /*============End add advice===========*/
+
+/*============About page===============*/
+.about-logo{
+    width: 200px;
+}
+
+#wrapper.about{
+    width: 100%;
+}
+
+#wrapper.about img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/*============End about page===============*/
+
+/*============Profile page=================*/
+.user-info h{
+    font-family: 'Ailerons';
+    text-align: center;
+    color: #414F5E;
+    font-size: 48px;
+}
+
+.user-info p{
+    font-family: 'Ailerons';
+    color: #414F5E;
+    font-size: 24px;
+}
+/*==========End profile page===============*/
