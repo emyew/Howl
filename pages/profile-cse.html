@@ -15,7 +15,6 @@
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-
     <!-- Custom CSS -->
     <link href="../css/simple-sidebar.css" rel="stylesheet">
     <link href="../css/howl.css" rel="stylesheet">
@@ -30,9 +29,8 @@
     </head>
 
 <body>
-
-    <div id="wrapper" class="eventlist" >
-
+    <div id="wrapper" class="profile">
+        
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
@@ -63,7 +61,7 @@
                     <a href="about-cse.html">About</a>
                 </li>
                 <li>
-                    <a href="profile-cse.html">Profile</a>
+                    <a href="about-cse.html">Profile</a>
                 </li>
                 <li class="other">
                     <a href="#">Sign In</a>
@@ -84,8 +82,8 @@
             <span class="icon-bar"></span>
             </a>
             <div id="appname">
-                <a href="index-cse.html"><span class="glyphicon glyphicon-chevron-left backbutton"></span></a>
-                CSE <span class="glyphicon glyphicon-triangle-right bread-crumb"></span> Networking
+                <a href="index-cse.html"><span class="glyphicon glyphicon-home backbutton"></span></a>
+                Profile
             </div>
         </div>
     </div>
@@ -96,43 +94,18 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="form-group eventsortbox">
-                            <label class="eventlistlabel" for="sel1">Sort By:</label>
-                            <select class="form-control eventlistsort" id="sel1">
-                                <option><a href="#">Rating (Highest First)</a></option>
-                                <option><a href="#">Rating (Lowest First)</a></option>
-                                <option><a href="#">Name</a></option>
-                                <option><a href="#">Date</a></option>
-                            </select>
+                    <div class="col-lg-12">
+                        <div class="user-info">
+                            <h>Username</h>
+                            <p>Major:</p>
+                            <p>Year:</p>
+                            <p>Currently has job/internship:</p>
+                            <p>Helpfulness count:</p>
+                            <p>Experience:</p>
+                            <p>About me:</p>
                         </div>
-                </div>
-            <!--event 1-->
-                <div class="row" id="event-list">
-                    <a href="cse-events/cse-ta.html">
-                     <div class="col-lg-2 col-md-2 col-xs-4" id="img">
-                        <img src="http://placehold.it/100x100">
                     </div>
-                    <div class="col-lg-10 col-md-10 col-xs-8" id="event-name">
-                        <p>Being a TA</p>
-                    </div>
-                    </a>
                 </div>
-           <!--   end  -->
-
-
-            <!--event 2-->
-                <div class="row" id="event-list">
-                    <a href="cse-events/decaf.html">
-                        <div class="col-lg-2 col-md-2 col-xs-4" id="img">
-                            <img src="http://placehold.it/100x100">
-                        </div>
-                        <div class="col-lg-10 col-md-10 col-xs-8" id="event-name">
-                            <p>DECAF</p>
-                        </div>
-                    </a>
-                </div>
-           <!--   end  -->
-
             </div>
         </div>
         <!-- /#page-content-wrapper -->
