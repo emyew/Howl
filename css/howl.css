@@ -558,10 +558,15 @@
     border: 1px solid grey;
 }
 
+.reviewer-rating{
+    float: right;
+    padding-right: 3px;
+}
+
 .reviewer-info{
     padding-left: 10px;
     font-family: 'Open Sans';
-    font-size: 10px;
+    font-size: 8px;
     color: white;
     float: left;
 }
