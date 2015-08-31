@@ -455,6 +455,23 @@
     background: #A5B5BE;
 }
 
+.signup{
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    height: 35px;
+}
+
+.signup-link{
+    font-family: 'Ailerons';
+    font-size: 12pt;
+    color: grey;
+}
+
+.signup-link:hover{
+    color: #303944;
+}
 
 /*=================================*/
 
