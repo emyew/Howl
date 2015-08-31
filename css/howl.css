@@ -161,22 +161,22 @@
 }
 
 .trophy{
-    background: url(images/competitionicon.svg);
+    background: url(../images/competitionicon.svg);
     background-position: center; 
 }
 
 .chatbox{
-    background: url(images/organizationicon.svg);
+    background: url(../images/organizationicon.svg);
     background-position: 3px; 
 }
 
 .group_3{
-    background: url(images/organization2.svg);
+    background: url(../images/organization2.svg);
     background-position: center -10px; 
 }
 
 .pencil{
-    background: url(images/coursesicon.svg);
+    background: url(../images/coursesicon.svg);
     background-position: 5px -5px; 
 }
 
