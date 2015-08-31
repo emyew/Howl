@@ -7,12 +7,12 @@
 /*********Custom Style*********/
 @font-face{
     font-family: 'Ailerons';
-    src: url('fonts/ailerons.ttf') format('truetype');
+    src: url('../fonts/Ailerons.ttf') format('truetype');
 }
 
 @font-face{
     font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 body{

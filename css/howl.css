@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'Ailerons';
-    src: url('css/fonts/ailerons.ttf') format('truetype');
+    src: url('../fonts/Ailerons.ttf') format('truetype');
 }
 
 @font-face{
     font-family: 'Open Sans';
-    src: url('css/fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 /**Start Screen1 Style**/
