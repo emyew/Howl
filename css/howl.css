@@ -259,6 +259,14 @@
 
 /*======End Index Style=====*/
 
+/**about style**/
+@media(min-width:768px){
+    .howlabout{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
 /**Signup Style**/
 
 #signup{
