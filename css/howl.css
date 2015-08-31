@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'Ailerons';
-    src: url('fonts/ailerons.ttf') format('truetype');
+    src: url('css/fonts/ailerons.ttf') format('truetype');
 }
 
 @font-face{
     font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('css/fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 /**Start Screen1 Style**/
@@ -161,22 +161,22 @@
 }
 
 .trophy{
-    background: url(../images/competitionicon.svg);
+    background: url(images/competitionicon.svg);
     background-position: center; 
 }
 
 .chatbox{
-    background: url(../images/organizationicon.svg);
+    background: url(images/organizationicon.svg);
     background-position: 3px; 
 }
 
 .group_3{
-    background: url(../images/organization2.svg);
+    background: url(images/organization2.svg);
     background-position: center -10px; 
 }
 
 .pencil{
-    background: url(../images/coursesicon.svg);
+    background: url(images/coursesicon.svg);
     background-position: 5px -5px; 
 }
 
@@ -599,7 +599,7 @@
   overflow: hidden;
   position: relative;
   background:
-url('../images/star-rating.png');
+url('images/star-rating.png');
   background-size: contain;
 }
 .star-rating i {
@@ -610,7 +610,7 @@ url('../images/star-rating.png');
   height: 100%;
   width: 20%;
   z-index: 1;
-  background: url('../images/star-rating-filled.png');
+  background: url('images/star-rating-filled.png');
   background-size: contain;
 }
 .star-rating input {
