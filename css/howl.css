@@ -250,6 +250,13 @@
     }
 }
 
+@media(max-width:768px){
+    #overlay{
+        opacity: 1;
+        background: rgba(0,0,0,.5);
+    }
+}
+
 /*======End Index Style=====*/
 
 /**Signup Style**/
