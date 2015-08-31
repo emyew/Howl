@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Howl</title>
+    <link rel="shortcut icon" href="../images/howl-icon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Lightbox CSS -->
+    <link href="../../css/lightbox.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/simple-sidebar.css" rel="stylesheet">
+    <link href="../../css/howl.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    </head>
+    
+<body>
+
+    <div id="wrapper" class="event-page">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                        <div class = "searchbar">
+                  <input type="text" class="form-control search" placeholder="Search">                                                 </div>
+                </li>
+                <li>
+                    <a href="#">Home<span class="glyphicon glyphicon-home"></span></a>
+                </li>
+                <li>
+                    <a data-toggle="collapse" href="#department-collapse" class="department-toggle" aria-controls="department-collapse" aria-controls="department-collapse">Departments<span class="glyphicon glyphicon-triangle-bottom"></span></a>
+                <div class="collapse" id="department-collapse"><ul class="departments">
+                        <li><a href="#">Computer Science</a></li>
+                        <li><a href="#">Cognitive Science</a></li>
+                        <li><a href="#">All Departments</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li>
+                    <a data-toggle="collapse" href="#category-collapse" class="category-toggle" aria-controls="category-collapse" aria-controls="category-collapse">Categories<span class="glyphicon glyphicon-triangle-bottom"></span></a>
+                    <div class="collapse" id="category-collapse"><ul class="categories">
+                        <li><a href="#">Competitions</a></li>
+                        <li><a href="#">Networking</a></li>
+                        <li><a href="#">Organizations</a></li>
+                        <li><a href="#">Courses</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">About/Contact Us</a>
+                </li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                <li class="other">
+                    <a href="#">Sign In</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        
+        <!-- Fixed Header -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div id="app-title">
+            
+            <a href="#menu-toggle" class="menu-button" id="menu-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </a>
+            
+            <div id="appname">
+                <span class="glyphicon glyphicon-chevron-left backbutton"></span>
+            </div>
+        </div>
+    </div>
+    </nav>
+        <!-- /#Fixed Header -->
+        
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                
+                <!-- Event name -->
+                <div class="row">
+                    <div class = "col-lg-12">
+                       <div class="event-name">
+                            DECAF
+                        </div>               
+                    </div>
+                </div>
+                
+                <!-- Event information -->
+                <div class="row">
+                    <div class = "col-lg-12">
+                        <!-- event date -->
+                        <p><span class="event-label">When: </span> 
+                            <span class="event-info">Every Winter</span></p>
+                
+                        <!-- event location -->
+                        <p><span class = "event-label">Location: </span>
+                            <span class="event-info">UCSD</span></p>
+                            
+                        <!-- event description -->
+                        <div class="event-label">Description: </div>
+                            <p>The Disciplines of Engineering Career Fair (DECaF), established in 1998, is the only annual student-managed multidisciplinary career fair at the University of California, San Diego. This event provides company representatives a unique opportunity to interact and engage with UCSD's talented engineering students regarding career options, internships, and permanent or summer employment opportunities. </p>
+
+<p>Open exclusively to UCSD students and alumni, DECaF is coordinated by the Triton Engineering Student Council and over 20 pre-professional engineering student organizations at the Jacobs School of Engineering. These engineering societies, representing the spectrum of disciplines at the Jacobs School, work in close collaboration to maximize the attendance of UCSD's 5,000 undergraduate and graduate student engineers and to ensure the satisfaction of recruiters and students alike.</p>
+                
+                    </div>
+                </div>
+                    
+                <!-- Event photos -->
+                <div class="row">
+                    <div class = "col-lg-12">
+
+                        <div class="event-label">Photos: </div>
+                        
+                        <a href="../../images/Calit2-hr.jpg" data-lightbox="photoset">
+                            <img class="photos" src="../../images/Calit2-hr.jpg">
+                        </a>
+                        <a href="../../images/geisel-windows-hr.jpg" data-lightbox="photoset">
+                            <img class="photos" src="../../images/geisel-windows-hr.jpg">
+                        </a>
+                        <a href="../../images/Price-Center-East-hr.jpg" data-lightbox="photoset">
+                            <img class="photos" src="../../images/Price-Center-East-hr.jpg">
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Advice section -->
+                <div class="row">
+                    <div class = "col-lg-12">
+                        <div class="sort-section">
+                            <div class="event-label">Advice:</div>
+                        <div id="reviewsortbox">
+                            <label class="sortreviewlabel">Sort by:</label>
+                            <select class="form-control review_sort" id="sort-advice" style="margin-bottom:10px" onchange="sort()">
+                                    <option><a href="">Most helpful</a></option>
+                                    <option><a href="">Highest rating to lowest</a></option>
+                                    <option><a href="">Lowest rating to highest</a></option>
+                                    <option><a href="">Most recent</a></option>
+                            </select>
+                            <a class="reviewbutton" href="">
+                <span class="btn btn-default glyphicon glyphicon-pencil share addreview"></span>
+                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class = "col-lg-12">
+                        <div id="container">
+                            <!-- advice 1 -->
+                            <div class="advice-section">
+                                <span class="rating" style="display:none;">4</span>
+
+                                <div class="reviewer-info">
+                                    John S.&nbsp;&#8226;&nbsp;
+                                    4th year&nbsp;&#8226;&nbsp;
+                                    Intern at Facebook
+                                    <img src='../../images/check%20mark.png'>
+                                </div>
+                                
+                                <!-- image of rating -->
+                                <div class="reviewer-rating" style="float:right; padding-right: 3px">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                </div>
+                                
+                                <div class="advice">
+                                    <p>This is one of the best ways to get a summer internship. Most companies here are looking for interns whereas the career fair in the spring are geared for seniors looking for a job after they graduate. Some time before decaf, the career fair will have a survey/questionnaire and people who fill those out get to go in the career fair faster. DO THEM. It won’t be too crowded and you will let you talk with more companies.</p>
+
+                                    <span class="date">8/21/15</span>
+                                    <div class="vote">
+                                        <span class="glyphicon glyphicon-triangle-bottom downvote"></span>
+                                        <span class="count">40</span>
+                                        <span class="glyphicon glyphicon-triangle-top upvote"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- advice 2 -->
+                            <div class="advice-section">
+                                <span class="rating" style="display:none;">2</span>
+
+                                <div class="reviewer-info">
+                                    Nathan N.&nbsp;&#8226;&nbsp;
+                                    2nd year
+                                </div>
+
+                                <!-- image of rating -->
+                                <div class="reviewer-rating" style="float:right; padding-right: 3px">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                </div>
+                                
+                                <div class="advice">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                    <span class="date">11/13/14</span>
+                                    <div class="vote">
+                                        <span class="glyphicon glyphicon-triangle-bottom downvote"></span>
+                                        <span class="count">21</span>
+                                        <span class="glyphicon glyphicon-triangle-top upvote"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- advice 3 -->
+                            <div class="advice-section">
+                                <span class="rating" style="display: none;">5</span>
+
+                                <div class="reviewer-info">
+                                    Leslie K.&nbsp;&#8226;&nbsp;
+                                    4th year
+                                </div>
+                                
+                                <!-- image of rating -->
+                                <div class="reviewer-rating" style="float:right; padding-right: 3px">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                </div>
+
+                                <div class="advice">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                    <span class="date">8/26/15</span>
+                                    <div class="vote">
+                                        <span class="glyphicon glyphicon-triangle-bottom downvote"></span>
+                                        <span class="count">2</span>
+                                        <span class="glyphicon glyphicon-triangle-top upvote"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- advice 4 -->
+                            <div class="advice-section">
+                                <span class="rating" style="display: none;">1</span>
+
+                                <div class="reviewer-info">
+                                    Victoria C.&nbsp;&#8226;&nbsp;
+                                    1st year&nbsp;&#8226;&nbsp;
+                                    Student employee at ACMS
+                                    <img src="../../images/check%20mark.png">
+                                </div>
+
+                                <!-- image of rating -->
+                                <div class="reviewer-rating" style="float:right; padding-right: 3px">
+                                    <img src="../../images/star-rating-filled-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                    <img src="../../images/star-rating-alt.png">
+                                </div>
+
+                                <div class="advice">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                    <span class="date">8/27/15</span>
+                                    <div class="vote">
+                                        <span class="glyphicon glyphicon-triangle-bottom downvote"></span>
+                                        <span class="count">0</span>
+                                        <span class="glyphicon glyphicon-triangle-top upvote"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- advice container -->
+
+                </div> 
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        
+    </div>
+    <!-- /#wrapper -->
+    
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    
+    <!-- Lightbox Script -->
+    <script src="../../js/lightbox.js"></script>
+    
+    <!-- upvote/downvote script -->
+    <script>
+    $(".downvote").click(function() {
+        var count = parseInt($(this).siblings('.count').text());
+        count = count - 1;
+        $(this).siblings('.count').text(count);
+
+    });
+        
+    $(".upvote").click(function() {
+        var count = parseInt($(this).siblings('.count').text());
+        count = count + 1;
+        $(this).siblings('.count').text(count);
+
+    });
+    </script>
+    
+    <!--review sorting script -->
+    <script>
+    function sort() {
+          var opt = $("#sort-advice option:selected").text();
+        var $divs = $("div.advice-section");
+
+        if (opt === "Most helpful") {
+            var helpfulOrderedDivs = $divs.sort(function(a, b) {
+                return ($(a).find(".count").text() < $(b).find(".count").text());
+            });
+            $("#container").html(helpfulOrderedDivs);
+        }
+        else if (opt === "Highest rating to lowest") {
+            var ratingDescDivs = $divs.sort(function(a, b) {
+                return ($(a).find(".rating").text() < $(b).find(".rating").text());
+            });
+            $("#container").html(ratingDescDivs);
+        }
+        else if (opt === "Lowest rating to highest") {
+            var ratingAscDivs = $divs.sort(function(a, b) {
+                return ($(a).find(".rating").text() > $(b).find(".rating").text());
+            });
+            $("#container").html(ratingAscDivs);
+        }
+        else if (opt === "Most recent") {
+            var dateOrderedDivs = $divs.sort(function(a,b) {
+                return ($(a).find(".date").text() < $(b).find(".date").text());
+            });
+            $("#container").html(dateOrderedDivs);
+
+        }
+
+        }
+    </script>
+</body>
+    
+</html>
