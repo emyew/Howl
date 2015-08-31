@@ -39,10 +39,10 @@
                         <img class="logo" src="../images/HowlLogo.png" alt="Howl logo">
                         <div class="form-group">
                             <label for="sel1">Select Major:</label>
-                            <select class="form-control" id="sel1">
-                                <option><a href="">Cognitive Science</a></option>
-                                <option><a href="">Computer Science</a></option>
-                                <option><a href="">Show All</a></option>
+                            <select class="form-control" id="sel1" onChange="document.location = this.value" value="GO">
+                                <option value="index-cogs.html">Cognitive Science</option>
+                                <option value="index-cse.html">Computer Science</option>
+                                <option value="index-all.html">Show All</option>
                             </select>
                         </div>
                     </div>
