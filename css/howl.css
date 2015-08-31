@@ -379,11 +379,27 @@
 /*==========sign in page===========*/
 #login-form{
 	margin-top:10%;
+    
+}
+
+.signin-form{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#signin-email{
+    background: #A5B5BE;
+    font-family: 'Ailerons';
+    font-size: 20px;
+}
+
+#signin-pwd{
+    background: #A5B5BE;
 }
 
 #signin-btn{
 	text-align:center;
-	margin-top:10%;
+    border-radius:5px;
 }
 
 #wrapper.signin label{
@@ -406,6 +422,23 @@
     height: 45px;
     padding-bottom: 10px;
 }
+
+.signinbutton{
+    background: #303944;
+    color: #A5B5BE;
+    font-family: 'Ailerons';
+    font-size: 12pt;
+    padding-bottom: 10px;
+    border-color: transparent;
+    margin-top: 15px;
+}
+
+.signinbutton:hover{
+    color: #303944;
+    background: #A5B5BE;
+}
+
+
 /*=================================*/
 
 
