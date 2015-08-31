@@ -85,16 +85,11 @@
     vertical-align: middle;
 }
 
-#wrapper.homepage h1{
-    text-align: center;
-    font-family: 'Ailerons';
-    margin-bottom: 25px;
-}
-
 #topcategory{
     width: 400px;
     margin: 0 auto;
     clear: both;
+    margin-top: 25px;
 }
 
 #bottomcategory{
