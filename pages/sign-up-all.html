@@ -15,7 +15,6 @@
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-
     <!-- Custom CSS -->
     <link href="../css/simple-sidebar.css" rel="stylesheet">
     <link href="../css/howl.css" rel="stylesheet">
@@ -30,9 +29,8 @@
     </head>
 
 <body>
-
-    <div id="wrapper" class="signin">
-
+    <div id="wrapper" class="signup">
+        
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
@@ -60,13 +58,13 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="about-all.html">About</a>
                 </li>
                 <li>
-                    <a href="#">Profile</a>
+                    <a href="profile-all.html">Profile</a>
                 </li>
                 <li class="other">
-                    <a href="#">Sign In</a>
+                    <a href="sign-in-all.html">Sign In</a>
                 </li>
                 
             </ul>
@@ -78,14 +76,14 @@
         <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
         <div id="app-title">
-            <a href="#menu-toggle" class="menu-button" id="menu-toggle">
+            <a href="#menu-toggle" class="menu-button hidden" id="menu-toggle">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </a>
             <div id="appname">
-                <a href="screen1.html"><span class="glyphicon glyphicon-home backbutton"></span></a>
-                Sign In
+                <a href="index-all.html"><span class="glyphicon glyphicon-home backbutton"></span></a>
+                Howl
             </div>
         </div>
     </div>
@@ -93,30 +91,40 @@
         <!-- /#Fixed Header -->
         
         <!-- Page Content -->
-
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <div class="row" class="signin">
-                    <div class="col-lg-12">
-                        <div class="form-group" id="login-form">
-                          <label for="usr">Email:</label>
-                          <input id="signin-email" type="text" class="form-control" id="usr">
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="form-group">
-                          <label for="pwd" >Password:</label>
-                          <input id="signin-pwd" type="password" class="form-control" id="pwd">
+                        <form role="form">
+                        <div id="signup" class="form-group">
+                            <h2>Sign Up</h2>
+                            <label for="usr">Name:</label><input type="text" class="form-control" id="usr">
+                            <label for="sel1">Year:</label>
+                            <select class="form-control" id="sel1">
+                                <option>First Year</option>
+                                <option>Second Year</option>
+                                <option>Third Year</option>
+                                <option>Fourth Year</option>
+                                <option>Fifth Year</option>
+                                <option>Above Fifth Year</option>
+                            </select>
+                            <label for="job_q">Do you currently have an internship/job related to your desired career field?</label>
+                            <div class="yesno">
+                            <label><input type="radio" name="optjob" class="job_q radio-inline">Yes</label>
+                            <label><input type="radio" name="optjob" class="job_q radio-inline">No</label>
+                            </div>
+                            <label for="employed">If yes, where do you work or intern?</label>
+  <input type="text" class="form-control" id="usr">
+                            <label for="experience">Share your experiences (optional):</label>
+  <textarea class="form-control writebox" rows="10" id="experience"></textarea>
+                            <label for="aboutself">Talk about yourself! (optional):</label>
+  <textarea class="form-control writebox" rows="10" id="aboutself"></textarea>
+                            <button type="submit" class="btn btn-default signupbutton">Sign Up</button>
                         </div>
-                        </div>
+                        </form>
                     </div>
-                 <div class="row" id="signin-btn">
-                     <button type="submit" class="btn btn-default signinbutton">Sign In</button>
                 </div>
+            </div>
         </div>
         <!-- /#page-content-wrapper -->
 
