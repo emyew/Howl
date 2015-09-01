@@ -8,6 +8,12 @@
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
+@media(max-width:768px){
+    .glyphicon-chevron-left{
+        display: none;
+    }
+}
+
 /**Start Screen1 Style**/
 #wrapper.screen1{
     width: 100%;
