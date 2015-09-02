@@ -561,11 +561,6 @@
         display: none;
     }
 }
-@media(max-width: 400px){
-    .writelabel{
-        display: none;
-    }
-}
 
 .sortreviewlabel{
     padding-right: 15px;
@@ -888,3 +883,36 @@ url('images/star-rating.png');
 }
 
 /**End Modal CSS**/
+
+/*===Add event css===*/
+.addevent{
+    text-align: left;
+}
+
+.eventbuttonwrap{
+    padding: 25px 0;
+    width: 150px;
+    margin: 0 auto;
+}
+.eventbutton, .eventlabel{
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    background: #414F5E;
+    color: white;
+}
+
+.eventbutton:hover{
+    background: white;
+}
+
+.eventbutton:hover .eventlabel{
+    color: #414F5E;
+    background: white;
+}
+
+.eventbutton a{
+    text-decoration: none;
+}
+
