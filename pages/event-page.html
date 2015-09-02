@@ -149,17 +149,20 @@
                         <div class="sort-section">
                             <div class="event-label">Advice:</div>
                         <div id="reviewsortbox">
-                            <label class="sortreviewlabel">Sort by:</label>
+                            <label class="sortreviewlabel">Sort by:</label><br class="line-break" />
                             <select class="form-control review_sort" id="sort-advice" style="margin-bottom:10px" onchange="sort()">
                                     <option><a href="">Most helpful</a></option>
                                     <option><a href="">Highest rating to lowest</a></option>
                                     <option><a href="">Lowest rating to highest</a></option>
                                     <option><a href="">Most recent</a></option>
                             </select>
-                            <a class="reviewbutton" href="">
-                <span class="btn btn-default glyphicon glyphicon-pencil share addreview"></span>
-                </a>
+                            <div class="btn btn-default share addreview reviewbutton">
+                                <a href="#portfolioModal1" data-toggle="modal">
+                                    <span class="writelabel">Write Advice</span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                </a>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -169,22 +172,24 @@
                         <div id="container">
                             <!-- advice 1 -->
                             <div class="advice-section">
-                                <span class="rating" style="display:none;">4</span>
+                                <div class="advice-header">
+                                    <span class="rating" style="display:none;">4</span>
 
-                                <div class="reviewer-info">
-                                    John S.&nbsp;&#8226;&nbsp;
-                                    4th year&nbsp;&#8226;&nbsp;
-                                    Intern at Facebook 
-                                    <img src='../images/check%20mark.png'>
-                                </div>
-                                
-                                <!-- image of rating -->
-                                <div class="reviewer-rating" style="float:right; padding-right: 3px">
-                                    <img src="../images/star-rating-filled-alt.png">
-                                    <img src="../images/star-rating-filled-alt.png">
-                                    <img src="../images/star-rating-filled-alt.png">
-                                    <img src="../images/star-rating-filled-alt.png">
-                                    <img src="../images/star-rating-alt.png">
+                                    <div class="reviewer-info">
+                                        John S.&nbsp;&#8226;&nbsp;
+                                        4th year&nbsp;&#8226;&nbsp;
+                                        Intern at Facebook 
+                                        <img src='../images/check%20mark.png'>
+                                    </div>
+                                    
+                                    <!-- image of rating -->
+                                    <div class="reviewer-rating">
+                                        <img src="../images/star-rating-filled-alt.png">
+                                        <img src="../images/star-rating-filled-alt.png">
+                                        <img src="../images/star-rating-filled-alt.png">
+                                        <img src="../images/star-rating-filled-alt.png">
+                                        <img src="../images/star-rating-alt.png">
+                                    </div>
                                 </div>
                                 
                                 <div class="advice">
@@ -239,7 +244,7 @@
                                 </div>
                                 
                                 <!-- image of rating -->
-                                <div class="reviewer-rating" style="float:right; padding-right: 3px">
+                                <div class="reviewer-rating">
                                     <img src="../images/star-rating-filled-alt.png">
                                     <img src="../images/star-rating-filled-alt.png">
                                     <img src="../images/star-rating-filled-alt.png">
@@ -271,7 +276,7 @@
                                 </div>
 
                                 <!-- image of rating -->
-                                <div class="reviewer-rating" style="float:right; padding-right: 3px">
+                                <div class="reviewer-rating">
                                     <img src="../images/star-rating-filled-alt.png">
                                     <img src="../images/star-rating-alt.png">
                                     <img src="../images/star-rating-alt.png">
@@ -301,6 +306,65 @@
         
     </div>
     <!-- /#wrapper -->
+    
+    <!-- Modal wrapper -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+        <div class="modal-body">
+                <!-- share your advice title -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title"> Share your Advice</div>
+                    </div>
+                </div>
+                
+                <!-- advice form and star rating -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <textarea class="advicetextbox" rows="10" cols="45"></textarea>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div style="text-align:center;">
+                         <span class="star-rating"> 
+                            <input type="radio" name="rating" value="1"><i></i>  
+                            <input type="radio" name="rating" value="2"><i></i>  
+                            <input type="radio" name="rating" value="3"><i></i>  
+                            <input type="radio" name="rating" value="4"><i></i>  
+                            <input type="radio" name="rating" value="5"><i></i>                      
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div style="text-align:center;">
+                            <button type="button" class="btn" id="submit-btn" style="text-align:center">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class = "row">
+                    <div class="hint-content">
+                        <!-- hints -->
+                        <p>Feeling stuck? Here's some helpful guide/questions to consider:</p>
+                        <p>Did this experience help you get a job/internships? How? Describe your experience. Describe what you learned from this experience (skills, advice, etc) What did you like most from your experience? Would you recommend this to another student? Why?</p>
+                    </div>    
+                </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- /#modal wrapper -->
     
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
